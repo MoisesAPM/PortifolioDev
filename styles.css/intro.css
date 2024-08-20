@@ -1,0 +1,44 @@
+#intro {
+  flex-direction: column;
+  margin: 12rem auto 18.3rem;
+  position: relative;
+  align-items: center;
+  gap: 8rem;
+  
+  #bg_intro {
+    height: 75rem;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  header {
+    padding-top: 12rem;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      border: 2px solid var(--color-red);
+    }
+
+    :nth-child(2) {
+      font: var(--subtitle);
+      color: var(--gray-400);
+      margin-top: 6.4rem;
+    }
+  }
+
+  #tags {
+    gap: 1.6rem;
+
+    button {
+      background-color: var(--gray-300);
+      border-radius: 5rem;
+      border: none;
+      color: var(--gray-500);
+      font: var(--text-md);
+      padding: 8px 1.6rem;
+      text-align: center;
+      gap: 8px;
+    }
+  }
+}

@@ -29,8 +29,49 @@
   --subtitle: 400 2.0rem/120% 'Inconsolata', sans-serif;
 
   --text-md: 400 1.6rem/140% 'Maven Pro', sans-serif;
-  --text-md: 400 1.4rem/140% 'Maven Pro', sans-serif;
+  --text-sm: 400 1.4rem/140% 'Maven Pro', sans-serif;
+}
+
+body {
+  background: #16181D;
+  color: var(--gray-500);
+}
+
+h1 {
+  color: var(--gray-600);
+  font: var(--title-lg);
+  margin-block: 8px 2rem;
+}
+
+span {
+  color: var(--color-red);
+  font: var(--subtitle);
+}
+
+p {
+  color: var(--gray-500);
+  font: var(--text-sm);
 }
 
 
+
+.pad1 {
+  padding-inline: 16.3rem;
+}
+
+.pad2 {
+  padding-inline: 12rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.lg_width {
+  max-width: 136.6rem;
+}
 
