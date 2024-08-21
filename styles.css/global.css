@@ -43,6 +43,16 @@ h1 {
   margin-block: 8px 2rem;
 }
 
+h2 {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+h3 {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
 span {
   color: var(--color-red);
   font: var(--subtitle);
@@ -77,5 +87,9 @@ a {
 
 .lg_width {
   max-width: 136.6rem;
+}
+
+.margin_auto{
+  margin-inline: auto;
 }
 
