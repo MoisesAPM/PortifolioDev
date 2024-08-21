@@ -1,7 +1,6 @@
 #intro {
   flex-direction: column;
   margin: 12rem auto 18.3rem;
-  position: relative;
   align-items: center;
   gap: 8rem;
   
@@ -10,35 +9,50 @@
     position: absolute;
     z-index: -1;
   }
-  
+
   header {
     padding-top: 12rem;
     text-align: center;
 
-    img {
-      border-radius: 50%;
-      border: 2px solid var(--color-red);
+    #avatar {
+      margin-inline: auto;
+      width: 11.2rem;
+      height: 11.2rem;
+      position: relative;
+
+      img {
+        border-radius: 50%;
+        border: 2px solid var(--color-red);
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        background: url(../assets/Vector.png);
+        background-repeat: no-repeat;
+        inset: 73% 65%;
+        width: 11.2rem;
+        height: 11.2rem;
     }
 
-    :nth-child(2) {
+    & + p {
       font: var(--subtitle);
       color: var(--gray-400);
-      margin-top: 6.4rem;
+      margin-top: 5.6rem;
     }
   }
 
-  #tags {
-    gap: 1.6rem;
+  
+  }
 
-    button {
-      background-color: var(--gray-300);
-      border-radius: 5rem;
-      border: none;
-      color: var(--gray-500);
-      font: var(--text-md);
-      padding: 8px 1.6rem;
-      text-align: center;
-      gap: 8px;
-    }
+  section {
+    gap: 1.6rem;
+  }
+
+  .tags {
+    background-color: var(--gray-300);
+    border-radius: 5rem;
+    padding: 0.8rem 1.6rem;
+    gap: 8px;
   }
 }
