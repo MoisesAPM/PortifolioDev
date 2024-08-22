@@ -3,12 +3,6 @@
   margin: 12rem auto 18.3rem;
   align-items: center;
   gap: 8rem;
-  
-  #bg_intro {
-    height: 75rem;
-    position: absolute;
-    z-index: -1;
-  }
 
   header {
     padding-top: 12rem;

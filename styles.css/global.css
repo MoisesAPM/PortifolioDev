@@ -69,12 +69,15 @@ a {
   font: var(--text-md);
 }
 
-.pad1 {
-  padding-inline: 16.3rem;
+#bg_intro,
+#bg_contact {
+  height: 75rem;
+  position: absolute;
+  z-index: -1;
 }
 
-.pad2 {
-  padding-inline: 12rem;
+.pad1 {
+  padding-inline: 16.3rem;
 }
 
 .grid {

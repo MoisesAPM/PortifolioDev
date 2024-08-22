@@ -1,0 +1,40 @@
+footer {
+  justify-content: center;
+  text-align: center;
+  padding-block: 12rem 20rem;
+  position: relative;
+  gap: 4.8rem;
+
+  header {
+    gap: 8px;
+
+    #purple {
+      color: var(--color-purple);
+    }
+  }
+
+  fieldset {
+    border: none;
+    gap: 1.6rem;
+
+    button {
+      padding: 2rem;
+      gap: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background: var(--gray-300);
+
+      &:hover {
+        border: 1.5px solid var(--color-blue);
+
+        :nth-child(1) {
+          border: 1.5px solid var(--color-blue);
+        }
+      }
+
+      a {
+        flex: 1;
+      }
+    }
+  }
+}
