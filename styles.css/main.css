@@ -1,0 +1,20 @@
+main {
+  text-align: center;
+  margin-block: 7.2rem 14.4rem;
+  gap: 5.6rem;
+
+  header {
+    span {
+      margin-bottom: 8px;
+    }
+  }
+
+  section {
+    max-width: 104rem;
+    grid-template-columns: 33rem 33rem 33rem;
+    gap: 2.4rem;
+
+    
+  }
+
+}

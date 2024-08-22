@@ -1,0 +1,25 @@
+#services {
+  justify-content: center;
+  margin-block: 8.8rem 12rem;
+  gap: 5.6rem;
+  
+  header {
+    text-align: center;
+    span {
+      margin-bottom: 8px;
+    }
+  }
+
+  section {
+    gap: 2.4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    width: 28rem;
+
+    img {
+      all: unset;
+    }
+  }
+}
